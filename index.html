@@ -12,18 +12,28 @@
     <h1 id="title">The Health Diet Survey</h1>
 
     <p id="description">Do you eat red meat? Why? Why not? Help us find out what the people think!</p>
-<form id="survey-form">
+    
+    <form id="survey-form">
 
-    <label for="name"><b>Name</b></label>
-    <input type="text" placeholder="Enter Name" id="name" name="name" required>
+      <label for="name" id="name-label"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" id="name" name="name" required>
 
-    <label for ="email"><b>Email</b></label>
-    <input type="email" placeholder="Enter Email" id= "email" name="email" required>
+      <label for="email" id="email-label"><b>Email</b></label>
+      <input type="email" placeholder="Enter Email" id= "email" name="email" required>
 
-    <label id="number"><b>Number</b></label>
-    <input type="number" max=100 placeholder="Enter Number" name="number" required>
-</form>
+      <label for="number" id="number-label"><b>Number</b></label>
+      <input type="number" max="100" min="0" placeholder="Enter Number" name="number" id="number" required>
 
+      <select id="dropdown" >
+        <option value = "1">one</option>
+        <option value = "2">two</option>
+        <option value = "3">three</option>
+        <option value = "4">four</option>
+      </select>
+
+    </form>
+
+    
 
     <!--
 
